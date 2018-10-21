@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompressionToolConfigurationElement.cs" />
-    <Compile Include="CompressionToolConfigurationElementsCollection.cs" />
-    <Compile Include="CompressionToolConfigurationSection.cs" />
+    <Compile Include="configuration\CompressionToolConfigurationElement.cs" />
+    <Compile Include="configuration\CompressionToolConfigurationElementsCollection.cs" />
+    <Compile Include="configuration\CompressionToolConfigurationSection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

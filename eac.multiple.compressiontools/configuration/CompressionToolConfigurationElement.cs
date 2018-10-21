@@ -2,7 +2,7 @@
 using System.Linq;
 
 
-namespace eac.multiple.compressiontools
+namespace eac.multiple.compressiontools.configuration
 {
     public class CompressionToolConfigurationElement : ConfigurationElement
     {
@@ -18,6 +18,14 @@ namespace eac.multiple.compressiontools
             get { return (string)this["parameters"]; }
             set { this["parameters"] = value; }
         }
+
+        [ConfigurationProperty("extension", IsRequired = true)]
+        public string Extension
+        {
+            get { return (string)this["extension"]; }
+            set { this["extension"] = value; }
+        }
+
         public override string ToString()
         {
             return "[CliConfig, executable=" + Executable + ". parameters=" + Parameters + "]";

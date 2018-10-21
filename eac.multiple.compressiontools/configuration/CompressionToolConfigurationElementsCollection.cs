@@ -3,7 +3,7 @@ using System.Configuration;
 using System.Linq;
 
 
-namespace eac.multiple.compressiontools
+namespace eac.multiple.compressiontools.configuration
 {
     [ConfigurationCollection(typeof(CompressionToolConfigurationElement), AddItemName = "compression-tool", CollectionType = ConfigurationElementCollectionType.BasicMap)]
     public class CompressionToolConfigurationElementsCollection : ConfigurationElementCollection, IEnumerable<CompressionToolConfigurationElement>

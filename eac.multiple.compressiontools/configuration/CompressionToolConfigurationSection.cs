@@ -4,7 +4,7 @@ using System.Configuration;
 using System.Linq;
 
 
-namespace eac.multiple.compressiontools
+namespace eac.multiple.compressiontools.configuration
 {
     public class CompressionToolConfigurationSection : ConfigurationSection
     {
